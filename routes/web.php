@@ -49,3 +49,4 @@ Route::prefix('program')->group(function() {
 Route::get('/news/{id}',[NewsController::class,'news']);
 
 Route::resource('contact-us', ContactController::class)->only(['show']);
+// 
